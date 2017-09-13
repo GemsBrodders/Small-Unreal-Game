@@ -1,0 +1,1075 @@
+﻿Log file open, 05/18/17 17:23:53
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1793441133) SRandInit(-1793441125).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069270
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-16.23.53:930][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-16.23.53:930][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-16.23.53:941][  0]LogInit: Computer: JAMESDESKTOP
+[2017.05.18-16.23.53:942][  0]LogInit: User: james
+[2017.05.18-16.23.53:942][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-16.23.53:942][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.05.18-16.23.53:942][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.18-16.23.53:942][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-16.23.53:942][  0]LogMemory: Process Physical Memory: 260.20 MB used, 260.20 MB peak
+[2017.05.18-16.23.53:942][  0]LogMemory: Process Virtual Memory: 262.09 MB used, 262.09 MB peak
+[2017.05.18-16.23.53:942][  0]LogMemory: Physical Memory: 4192.07 MB used,  3948.58 MB free, 8140.64 MB total
+[2017.05.18-16.23.53:942][  0]LogMemory: Virtual Memory: 622.09 MB used,  3948.58 MB free, 134217728.00 MB total
+[2017.05.18-16.23.54:005][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.18-16.23.54:510][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-16.23.55:018][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.05.18-16.23.55:018][  0]LogD3D11RHI:       6032/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.18-16.23.55:019][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-16.23.55:019][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-16.23.55:019][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-16.23.55:024][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-16.23.55:024][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-16.23.55:024][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-16.23.55:024][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.05.18-16.23.55:024][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2017.05.18-16.23.55:024][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.05.18-16.23.55:024][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.05.18-16.23.55:024][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.18-16.23.55:024][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.05.18-16.23.55:024][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.05.18-16.23.55:024][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.05.18-16.23.55:024][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-16.23.55:552][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-16.23.55:584][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.18-16.23.55:633][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Users/james/Desktop/MyProject/Intermediate/Shaders/WorkingDirectory/31560/).
+[2017.05.18-16.23.55:633][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/james/AppData/Local/Temp/UnrealShaderWorkingDir/0416CECF46A056606B062F91EBDF482F/'.
+[2017.05.18-16.23.55:633][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-16.23.56:782][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-16.23.56:822][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-16.23.56:863][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-16.23.56:904][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-16.23.56:946][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-16.23.56:986][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-16.23.57:028][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-16.23.57:070][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-16.23.57:104][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-16.23.57:143][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-16.23.57:182][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-16.23.57:222][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-16.23.57:265][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-16.23.57:308][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-16.23.57:352][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-16.23.57:432][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-16.23.57:433][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-16.23.57:457][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-16.23.57:532][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-16.23.57:557][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-16.23.57:596][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-16.23.57:638][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-16.23.57:679][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-16.23.57:718][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-16.23.57:718][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-16.23.58:052][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/james/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/james/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/james/Desktop/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/james/Desktop/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-16.23.58:104][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-16.23.58:122][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-16.23.58:134][  0]LogDerivedDataCache: Using Local data cache path C:/Users/james/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-16.23.58:142][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-16.23.58:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-16.23.58:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-16.23.58:359][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-16.23.58:362][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-16.23.58:522][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-16.23.58:553][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-16.23.58:583][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-16.23.58:583][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-16.23.58:583][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-16.23.59:309][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4136520461
+[2017.05.18-16.23.59:352][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.05.18-16.23.59:404][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.036994 seconds
+[2017.05.18-16.23.59:410][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.18-16.23.59:410][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.18-16.23.59:410][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-16.23.59:459][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-16.24.00:699][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-16.24.00:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-16.24.01:089][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-16.24.01:367][  0]SourceControl: Info Source control is disabled
+[2017.05.18-16.24.01:368][  0]SourceControl: Info Source control is disabled
+[2017.05.18-16.24.01:399][  0]SourceControl: Info Source control is disabled
+[2017.05.18-16.24.01:429][  0]SourceControl: Info Source control is disabled
+[2017.05.18-16.24.02:262][  0]LogEngine: Initializing Engine...
+[2017.05.18-16.24.02:262][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-16.24.02:439][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-16.24.02:446][  0]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-16.24.02:450][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-16.24.02:474][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/james/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-16.24.02:484][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-16.24.02:550][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-16.24.02:609][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-16.24.02:851][  0]BlueprintLog: New page: Editor Load
+[2017.05.18-16.24.03:468][  0]LocalizationService: Info Localization service is disabled
+[2017.05.18-16.24.03:922][  0]LogConsoleResponse:Display: 
+[2017.05.18-16.24.04:039][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-16.24.04:039][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-16.24.04:725][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james/Desktop/MyProject/Content/' took 0.01s
+[2017.05.18-16.24.04:725][  0]SourceControl: Info Source control is disabled
+[2017.05.18-16.24.04:726][  0]Cmd: MAP LOAD FILE="D:/Users/james/Desktop/MyProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-16.24.04:726][  0]LightingResults: New page: Lighting Build
+[2017.05.18-16.24.04:752][  0]MapCheck: New page: Map Check
+[2017.05.18-16.24.04:752][  0]LightingResults: New page: Lighting Build
+[2017.05.18-16.24.06:313][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-16.24.06:344][  0]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-16.24.06:346][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-16.24.06:347][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-16.24.06:383][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.038ms to complete.
+[2017.05.18-16.24.06:383][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.657
+[2017.05.18-16.24.06:580][  0]LogCollectionManager: Loaded 0 collections in 0.001080 seconds
+[2017.05.18-16.24.06:659][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james/Desktop/MyProject/Saved/Collections/' took 0.01s
+[2017.05.18-16.24.06:659][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james/Desktop/MyProject/Content/Developers/james/Collections/' took 0.01s
+[2017.05.18-16.24.06:659][  0]LogFileCache: Scanning file cache for directory 'D:/Users/james/Desktop/MyProject/Content/Collections/' took 0.01s
+[2017.05.18-16.24.06:659][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.18-16.24.06:668][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-16.24.06:674][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-16.24.06:675][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-16.24.06:715][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-16.24.06:954][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-16.24.06:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-16.24.07:135][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-16.24.07:143][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.18-16.24.07:194][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-16.24.07:194][  0]LogLoad: (Engine Initialization) Total time: 15.15 seconds
+[2017.05.18-16.24.07:194][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.05.18-16.24.07:194][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.18-16.24.07:203][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-16.24.07:227][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-16.24.07:228][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-16.24.07:231][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-16.24.07:239][  0]LogSlate: Took 0.003960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-16.24.07:419][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.18-16.24.07:531][  1]LogAssetRegistry: Asset discovery search completed in 8.2012 seconds
+[2017.05.18-16.24.07:531][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.18-16.24.07:531][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.05.18-16.24.07:565][  1]LogSlate: Took 0.005792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-16.25.18:329][747]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-16.28.25:148][371]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.18-16.28.25:739][371]LogSlate: Took 0.003171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-16.30.14:804][936]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-16.30.51:954][706]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:17094).
+[2017.05.18-16.31.10:156][277]LogSlate: Took 0.006024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-16.33.58:852][173]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-16.34.07:897][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.021
+[2017.05.18-16.34.07:915][200]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/MyGame] ([1] browsable assets)...
+[2017.05.18-16.34.07:915][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MyGame]
+[2017.05.18-16.34.07:915][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyGame" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-16.34.08:010][200]LogSavePackage: Save=18.92ms
+[2017.05.18-16.34.08:010][200]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/MyGame_Auto113D2D0564BBF24F955F5819B0B68651F.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto1.uasset'
+[2017.05.18-16.34.08:025][200]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto1.uasset
+[2017.05.18-16.34.08:026][200]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/NewHUD] ([1] browsable assets)...
+[2017.05.18-16.34.08:026][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/NewHUD]
+[2017.05.18-16.34.08:026][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/NewHUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-16.34.08:038][200]LogSavePackage: Save=11.13ms
+[2017.05.18-16.34.08:038][200]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/NewHUD_Auto133783CEF405DA51458AAA6BF93428F31.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto1.uasset'
+[2017.05.18-16.34.08:038][200]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto1.uasset
+[2017.05.18-16.34.08:038][200]LogFileHelpers: Auto-saving content packages took 0.141
+[2017.05.18-16.34.24:481][572]LogSlate: Took 0.003414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.18-16.35.33:823][835]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:40217).
+[2017.05.18-16.44.08:879][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.015
+[2017.05.18-16.44.08:880][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/NewHUD] ([1] browsable assets)...
+[2017.05.18-16.44.08:880][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/NewHUD]
+[2017.05.18-16.44.08:880][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/NewHUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-16.44.08:890][469]LogSavePackage: Save=8.98ms
+[2017.05.18-16.44.08:890][469]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/NewHUD_Auto24F45DEE84B0E6A5719932FA3B9564C4C.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto2.uasset'
+[2017.05.18-16.44.08:891][469]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/NewHUD_Auto2.uasset
+[2017.05.18-16.44.08:891][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-16.44.08:891][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-16.44.08:891][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-16.44.08:922][469]LogSavePackage: Save=10.12ms
+[2017.05.18-16.44.08:922][469]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto2622FB4EE49AA28043884018EABF0D9CA.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto2.uasset'
+[2017.05.18-16.44.08:922][469]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto2.uasset
+[2017.05.18-16.44.08:922][469]LogFileHelpers: Auto-saving content packages took 0.042
+[2017.05.18-16.47.20:523][560]LogSlate: Took 0.014140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.18-16.59.06:766][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.014
+[2017.05.18-16.59.06:767][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-16.59.06:767][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-16.59.06:767][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-16.59.06:781][ 92]LogSavePackage: Save=12.90ms
+[2017.05.18-16.59.06:781][ 92]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto3FE9135EF49A90CEAC276A1A770CD0DB7.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto3.uasset'
+[2017.05.18-16.59.06:782][ 92]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto3.uasset
+[2017.05.18-16.59.06:782][ 92]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.05.18-17.02.40:150][464]LogEditorTransaction: Undo Edit Value
+[2017.05.18-17.03.07:999][190]LogEditorTransaction: Undo Edit Y
+[2017.05.18-17.03.08:954][241]Cmd: TRANSACTION UNDO
+[2017.05.18-17.03.08:954][241]LogEditorTransaction: Undo Edit X
+[2017.05.18-17.05.26:519][188]LogEditorTransaction: Undo Edit X
+[2017.05.18-17.05.27:052][211]LogEditorTransaction: Undo Edit X
+[2017.05.18-17.09.26:622][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.014
+[2017.05.18-17.09.26:623][655]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-17.09.26:623][655]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-17.09.26:623][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.09.26:633][655]LogSavePackage: Save=9.73ms
+[2017.05.18-17.09.26:633][655]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto4FF51317A41A256B215908CB593D23D98.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto4.uasset'
+[2017.05.18-17.09.26:634][655]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto4.uasset
+[2017.05.18-17.09.26:634][655]LogFileHelpers: Auto-saving content packages took 0.012
+[2017.05.18-17.15.21:986][241]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.16.46:213][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-17.16.46:282][312]LogSavePackage: Save=64.16ms
+[2017.05.18-17.16.46:282][312]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBpEAEAB1544B4642522CBED78333F253D4.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-17.16.46:290][312]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-17.17.07:496][666]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-17.17.08:574][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-17.17.08:642][706]LogSavePackage: Save=66.72ms
+[2017.05.18-17.17.08:642][706]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp838862BA4FA0983DBA3E3EA4506C229F.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-17.17.08:643][706]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-17.18.32:908][588]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.18.34:714][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-17.18.34:727][729]LogSavePackage: Save=12.00ms
+[2017.05.18-17.18.34:727][729]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD9401683E469A342772761E9FF282B131.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-17.18.34:730][729]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-17.19.27:175][628]LogSavePackage: Save=96.74ms
+[2017.05.18-17.19.27:175][628]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto51CD5C55F404BC8F27EDC4193DD95F047.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2017.05.18-17.19.27:175][628]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap
+[2017.05.18-17.19.27:179][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.138
+[2017.05.18-17.19.27:179][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2017.05.18-17.19.41:431][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-17.19.41:467][112]LogSavePackage: Save=34.73ms
+[2017.05.18-17.19.41:467][112]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp0F19648C4F19550109543D88AA078F0E.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-17.19.41:468][112]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-17.19.51:575][694]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-17.29.27:495][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.015
+[2017.05.18-17.29.27:496][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-17.29.27:496][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-17.29.27:496][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.29.27:524][ 86]LogSavePackage: Save=18.64ms
+[2017.05.18-17.29.27:524][ 86]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto665A3601144BF64F6AB162E806E1F6D62.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto6.uasset'
+[2017.05.18-17.29.27:524][ 86]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto6.uasset
+[2017.05.18-17.29.27:524][ 86]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.05.18-17.32.13:222][ 15]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-17.32.13:288][ 16]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+
+[2017.05.18-17.32.13:288][ 16]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-17.32.13:288][ 16]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-17.32.13:288][ 16]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-17.32.13:288][ 16]LogTemp:Display: BranchPath = JAMESDESKTOP/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = JAMESDESKTOP/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\james\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-17.32.13:354][ 18]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-17.39.53:621][137]LogSavePackage: Save=103.23ms
+[2017.05.18-17.39.53:621][137]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto7EB400DFD4C12BE5297E9F4999C903FA8.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap'
+[2017.05.18-17.39.53:622][137]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap
+[2017.05.18-17.39.53:625][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.139
+[2017.05.18-17.39.53:625][137]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2017.05.18-17.39.53:628][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharcterBp] ([1] browsable assets)...
+[2017.05.18-17.39.53:639][137]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharcterBp.CharcterBp]
+[2017.05.18-17.39.53:639][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharcterBp]
+[2017.05.18-17.39.53:639][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.39.53:696][137]LogSavePackage: Save=51.25ms
+[2017.05.18-17.39.53:696][137]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp_Auto71BAA4E054828CD5BB4FB55ACF384FDD7.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto7.uasset'
+[2017.05.18-17.39.53:696][137]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto7.uasset
+[2017.05.18-17.39.53:697][137]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-17.39.53:697][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-17.39.53:697][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.39.53:718][137]LogSavePackage: Save=12.73ms
+[2017.05.18-17.39.53:718][137]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto71ECC3A89485629FDD2CC6CBFA4356C4C.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto7.uasset'
+[2017.05.18-17.39.53:718][137]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto7.uasset
+[2017.05.18-17.39.53:718][137]LogFileHelpers: Auto-saving content packages took 0.091
+[2017.05.18-17.42.21:106][675]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-17.42.21:138][675]LogBlueprint:Error: [Compiler HUD] Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_2 ': Binding: 'MyCharacter.Stamnia' : 'Stamnia' was not found on 'Charcter Bp'.
+[2017.05.18-17.49.54:343][704]LogSavePackage: Save=103.22ms
+[2017.05.18-17.49.54:343][704]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto85110EDF4486857DE73248DB2D273117F.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto8.umap'
+[2017.05.18-17.49.54:344][704]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto8.umap
+[2017.05.18-17.49.54:345][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.133
+[2017.05.18-17.49.54:345][704]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2017.05.18-17.49.54:347][704]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharcterBp] ([1] browsable assets)...
+[2017.05.18-17.49.54:359][704]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharcterBp.CharcterBp]
+[2017.05.18-17.49.54:359][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharcterBp]
+[2017.05.18-17.49.54:359][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.49.54:443][704]LogSavePackage: Save=70.66ms
+[2017.05.18-17.49.54:443][704]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp_Auto829E85C414ADDEB35735DD683EC1E428F.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto8.uasset'
+[2017.05.18-17.49.54:456][704]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto8.uasset
+[2017.05.18-17.49.54:456][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-17.49.54:456][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-17.49.54:456][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-17.49.54:474][704]LogSavePackage: Save=12.19ms
+[2017.05.18-17.49.54:475][704]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto839C11D6E43E2D10C51567B8E487E0D46.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto8.uasset'
+[2017.05.18-17.49.54:475][704]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto8.uasset
+[2017.05.18-17.49.54:475][704]LogFileHelpers: Auto-saving content packages took 0.128
+[2017.05.18-17.51.17:599][991]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-17.51.17:633][991]LogBlueprint:Error: [Compiler HUD] Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_2 ': Binding: 'MyCharacter.Stamnia' : 'Stamnia' was not found on 'Charcter Bp'.
+[2017.05.18-17.52.31:132][118]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.52.31:137][118]LogBlueprint:Error: [Compiler HUD] Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_2 ': Binding: 'MyCharacter.Stamnia' : 'Stamnia' was not found on 'Charcter Bp'.
+[2017.05.18-17.52.31:329][118]BlueprintEditorCompileResults:Error: Error Binding: Property ' PercentDelegate ' on Widget ' ProgressBar_2 ': Binding: 'MyCharacter.Stamnia' : 'Stamnia' was not found on 'Charcter Bp'.
+[2017.05.18-17.52.31:329][118]LogBlueprint:Warning: [Compiler HUD] Warning [5319.29] Compile of HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 196 ms] (/Game/Character/HUD/HUD.HUD)
+[2017.05.18-17.54.03:013][505]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.54.59:890][ 58]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.55.00:633][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-17.55.00:653][100]LogSavePackage: Save=14.96ms
+[2017.05.18-17.55.00:653][100]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD6773F3994BAF1A0003117196A95E49C9.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-17.55.00:657][100]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-17.55.58:369][742]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-17.56.21:203][154]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-17.56.22:636][233]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-17.56.22:650][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.56.22:651][233]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.18-17.56.22:651][233]LogPlayLevel: [PlayLevel] Compiling NewHUD before play...
+[2017.05.18-17.56.22:655][233]LogBlueprint:Error: [Compiler NewHUD] Error The current value of the ' Context ' pin is invalid: 'Context' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.18-17.56.22:655][233]LogBlueprint:Error: [Compiler NewHUD] Error The current value of the ' Text ' pin is invalid: 'Text' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.05.18-17.56.22:780][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 127 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:780][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:780][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:780][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:780][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:781][233]LogBlueprint:Warning: [Compiler NewHUD] Warning [5550.74] Compile of NewHUD failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Character/HUD/NewHUD.NewHUD)
+[2017.05.18-17.56.22:794][233]LogPlayLevel: PlayLevel: Blueprint regeneration took 143 ms (1 blueprints)
+[2017.05.18-17.56.22:794][233]BlueprintLog: Info Blueprint NewHUD failed to compile
+[2017.05.18-17.56.37:465][ 62]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.56.41:139][299]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.56.52:611][119]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-17.56.52:630][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.56.52:630][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-17.56.54:116][119]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 7:56:54 PM)
+[2017.05.18-17.56.54:117][119]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-17.56.54:133][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016263s)
+[2017.05.18-17.56.54:134][119]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-17.56.54:134][119]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2017.05.18-17.56.54:134][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017579s)
+[2017.05.18-17.56.54:152][119]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-17.56.54:155][119]LogInit: FAudioDevice initialized.
+[2017.05.18-17.56.54:240][119]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-17.56.54:243][119]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-17.56.54:243][119]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-18.56.54
+[2017.05.18-17.56.54:244][119]LogWorld: Bringing up level for play took: 0.002295
+[2017.05.18-17.56.54:347][119]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.05.18-17.56.54:355][119]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.846
+[2017.05.18-17.56.54:355][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.56.54:392][119]LogRenderer: Reallocating scene render targets to support 1292x900 NumSamples 1 (Frame:261637).
+[2017.05.18-17.57.12:532][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.57.12:586][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.57.47:532][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveDrawHUD' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_NewHUD' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveDrawHUD' or package '/Game/Character/HUD/NewHUD'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Health' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewHUD_C_193' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewHUD_C_0' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewHUD_C_1' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewHUD_C_204' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:533][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewHUD_C_203' or package '/Engine/Transient'.
+[2017.05.18-17.57.47:534][206]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_NewHUD' or package '/Game/Character/HUD/NewHUD'.
+[2017.05.18-17.58.27:483][113]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-17.58.28:893][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-17.58.28:970][173]LogSavePackage: Save=71.56ms
+[2017.05.18-17.58.28:970][173]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp801AAEA04C18D78F27265F85C1C50DC1.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-17.58.28:973][173]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-17.58.30:858][276]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-17.58.30:874][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.58.30:874][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-17.58.30:874][276]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 7:58:30 PM)
+[2017.05.18-17.58.30:875][276]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-17.58.30:881][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006260s)
+[2017.05.18-17.58.30:881][276]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-17.58.30:881][276]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.05.18-17.58.30:882][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006954s)
+[2017.05.18-17.58.30:899][276]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-17.58.30:902][276]LogInit: FAudioDevice initialized.
+[2017.05.18-17.58.30:978][276]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-17.58.30:981][276]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-17.58.30:981][276]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-18.58.30
+[2017.05.18-17.58.30:981][276]LogWorld: Bringing up level for play took: 0.001890
+[2017.05.18-17.58.30:991][276]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.482
+[2017.05.18-17.58.30:991][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.58.48:875][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.58.48:944][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.23:869][318]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-17.59.23:889][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.23:889][318]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.18-17.59.23:890][318]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.05.18-17.59.24:026][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (1 blueprints)
+[2017.05.18-17.59.24:027][318]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 7:59:24 PM)
+[2017.05.18-17.59.24:027][318]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-17.59.24:032][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005217s)
+[2017.05.18-17.59.24:032][318]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-17.59.24:032][318]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.05.18-17.59.24:033][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005987s)
+[2017.05.18-17.59.24:049][318]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-17.59.24:051][318]LogInit: FAudioDevice initialized.
+[2017.05.18-17.59.24:124][318]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-17.59.24:126][318]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-17.59.24:126][318]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-18.59.24
+[2017.05.18-17.59.24:127][318]LogWorld: Bringing up level for play took: 0.001711
+[2017.05.18-17.59.24:133][318]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.375
+[2017.05.18-17.59.24:134][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.28:299][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-17.59.28:319][511]LogSavePackage: Save=17.94ms
+[2017.05.18-17.59.28:319][511]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD86676A5445DA272914A11D82B91145EF.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-17.59.28:320][511]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-17.59.31:104][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.31:161][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.33:309][760]BlueprintLog: New page: Compile HUD
+[2017.05.18-17.59.35:372][847]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-17.59.35:388][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.35:388][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-17.59.35:388][847]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 7:59:35 PM)
+[2017.05.18-17.59.35:389][847]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-17.59.35:393][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004008s)
+[2017.05.18-17.59.35:393][847]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-17.59.35:393][847]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.05.18-17.59.35:393][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004729s)
+[2017.05.18-17.59.35:409][847]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-17.59.35:412][847]LogInit: FAudioDevice initialized.
+[2017.05.18-17.59.35:486][847]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-17.59.35:488][847]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-17.59.35:488][847]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-18.59.35
+[2017.05.18-17.59.35:489][847]LogWorld: Bringing up level for play took: 0.001797
+[2017.05.18-17.59.35:498][847]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.99
+[2017.05.18-17.59.35:499][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.46:944][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-17.59.47:013][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.02.44:842][726]LogSavePackage: Save=101.01ms
+[2017.05.18-18.02.44:842][726]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto951BEA9D443A381B3D59ED083749BF70E.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto9.umap'
+[2017.05.18-18.02.44:842][726]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto9.umap
+[2017.05.18-18.02.44:844][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.213
+[2017.05.18-18.02.44:844][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.213
+[2017.05.18-18.02.44:845][726]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/MyGame] ([1] browsable assets)...
+[2017.05.18-18.02.44:845][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MyGame]
+[2017.05.18-18.02.44:845][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyGame" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-18.02.44:861][726]LogSavePackage: Save=8.91ms
+[2017.05.18-18.02.44:861][726]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/MyGame_Auto9EE3E06484E6CFACD65F19A99EDC93883.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto9.uasset'
+[2017.05.18-18.02.44:861][726]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/MyGame_Auto9.uasset
+[2017.05.18-18.02.44:861][726]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-18.02.44:861][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-18.02.44:861][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-18.02.44:889][726]LogSavePackage: Save=23.15ms
+[2017.05.18-18.02.44:889][726]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto987B6BA30431CFF17B09D83B5D66CF600.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto9.uasset'
+[2017.05.18-18.02.44:889][726]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto9.uasset
+[2017.05.18-18.02.44:889][726]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.05.18-18.03.01:902][688]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.03.17:194][  1]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.10.23:598][800]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.10.23:634][800]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.14.39:104][ 80]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-18.15.51:440][440]LogSavePackage: Save=103.01ms
+[2017.05.18-18.15.51:440][440]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto065FCA92C415AF604B5640F8FDFACE759.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto0.umap'
+[2017.05.18-18.15.51:440][440]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto0.umap
+[2017.05.18-18.15.51:441][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.222
+[2017.05.18-18.15.51:441][440]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.222
+[2017.05.18-18.15.51:443][440]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharcterBp] ([1] browsable assets)...
+[2017.05.18-18.15.51:454][440]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharcterBp.CharcterBp]
+[2017.05.18-18.15.51:454][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharcterBp]
+[2017.05.18-18.15.51:454][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-18.15.51:560][440]LogSavePackage: Save=56.67ms
+[2017.05.18-18.15.51:560][440]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp_Auto08024CD514CA6D050640675B262AFF504.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto0.uasset'
+[2017.05.18-18.15.51:560][440]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto0.uasset
+[2017.05.18-18.15.51:561][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/HUD/HUD] ([1] browsable assets)...
+[2017.05.18-18.15.51:561][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HUD/HUD]
+[2017.05.18-18.15.51:561][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-18.15.51:632][440]LogSavePackage: Save=15.24ms
+[2017.05.18-18.15.51:632][440]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD_Auto0FD70A88A41A28E39F2FDF9AE644CBFD8.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto0.uasset'
+[2017.05.18-18.15.51:632][440]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/HUD/HUD_Auto0.uasset
+[2017.05.18-18.15.51:632][440]LogFileHelpers: Auto-saving content packages took 0.190
+[2017.05.18-18.15.52:497][499]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.15.53:563][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.15.53:621][545]LogSavePackage: Save=55.78ms
+[2017.05.18-18.15.53:621][545]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp2C1E5B2F428065682566928D8610DA57.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.15.53:624][545]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.17.50:533][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-18.17.50:551][625]LogSavePackage: Save=16.24ms
+[2017.05.18-18.17.50:551][625]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUDF4190CC8414D571411F87390D3D33DA5.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-18.17.50:553][625]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-18.18.08:478][ 56]BlueprintLog: New page: Compile HUD
+[2017.05.18-18.18.08:594][ 56]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.05.18-18.18.09:701][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-18.18.09:720][151]LogSavePackage: Save=17.43ms
+[2017.05.18-18.18.09:720][151]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD28221270442E87B3742EF0B435C2AD7F.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-18.18.09:721][151]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-18.18.11:992][282]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.18.12:006][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.18.12:006][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.18.12:006][282]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:18:12 PM)
+[2017.05.18-18.18.12:006][282]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.18.12:020][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014457s)
+[2017.05.18-18.18.12:021][282]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.18.12:021][282]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.05.18-18.18.12:021][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015328s)
+[2017.05.18-18.18.12:038][282]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.18.12:040][282]LogInit: FAudioDevice initialized.
+[2017.05.18-18.18.12:115][282]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.18.12:118][282]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.18.12:118][282]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.18.12
+[2017.05.18-18.18.12:119][282]LogWorld: Bringing up level for play took: 0.001935
+[2017.05.18-18.18.12:129][282]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.38
+[2017.05.18-18.18.12:129][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.18.31:636][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.18.31:701][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.18.54:517][709]BlueprintLog: New page: Compile HUD
+[2017.05.18-18.18.54:661][709]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.05.18-18.18.55:367][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HUD/HUD" FILE="D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset" SILENT=true
+[2017.05.18-18.18.55:386][745]LogSavePackage: Save=17.19ms
+[2017.05.18-18.18.55:386][745]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/HUD53D73B3D4770217A073371BCEA160D10.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset'
+[2017.05.18-18.18.55:387][745]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/HUD/HUD.uasset
+[2017.05.18-18.18.59:744][  5]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.18.59:763][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.18.59:763][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.18.59:763][  5]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:18:59 PM)
+[2017.05.18-18.18.59:763][  5]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.18.59:768][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004805s)
+[2017.05.18-18.18.59:769][  5]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.18.59:769][  5]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.05.18-18.18.59:769][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005557s)
+[2017.05.18-18.18.59:785][  5]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.18.59:787][  5]LogInit: FAudioDevice initialized.
+[2017.05.18-18.18.59:861][  5]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.18.59:863][  5]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.18.59:863][  5]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.18.59
+[2017.05.18-18.18.59:864][  5]LogWorld: Bringing up level for play took: 0.001780
+[2017.05.18-18.18.59:873][  5]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.636
+[2017.05.18-18.18.59:874][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.19.40:373][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.19.40:439][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.29.08:116][645]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.29.08:159][645]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.29.27:749][495]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.29.58:942][776]LogSavePackage: Save=117.23ms
+[2017.05.18-18.29.58:942][776]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto1EF02A3A245782C26F492BE98C63C45E2.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.05.18-18.29.58:942][776]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.05.18-18.29.58:945][776]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.186
+[2017.05.18-18.29.58:945][776]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2017.05.18-18.29.58:947][776]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharcterBp] ([1] browsable assets)...
+[2017.05.18-18.29.58:959][776]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharcterBp.CharcterBp]
+[2017.05.18-18.29.58:959][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharcterBp]
+[2017.05.18-18.29.58:959][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-18.29.59:091][776]LogSavePackage: Save=80.13ms
+[2017.05.18-18.29.59:091][776]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp_Auto187B4C1E743E9F88E29313E9194610C48.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto1.uasset'
+[2017.05.18-18.29.59:092][776]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/Character/CharcterBp_Auto1.uasset
+[2017.05.18-18.29.59:092][776]LogFileHelpers: Auto-saving content packages took 0.146
+[2017.05.18-18.31.25:187][939]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2017.05.18-18.32.36:957][589]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.32.43:277][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.32.43:340][939]LogSavePackage: Save=60.56ms
+[2017.05.18-18.32.43:340][939]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp1EFB9DE948BB792B7DCC23B0BB5ECDB2.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.32.43:342][939]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.34.04:959][736]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.34.06:930][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.34.06:993][829]LogSavePackage: Save=61.32ms
+[2017.05.18-18.34.06:993][829]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp45B12BCF466BBF0395AEDF9094B8EEA6.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.34.06:994][829]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.35.05:259][357]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.35.05:273][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.35.05:273][357]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.18-18.35.05:273][357]LogPlayLevel: [PlayLevel] Compiling CharcterBp before play...
+[2017.05.18-18.35.05:313][357]LogPlayLevel: [PlayLevel]   Compiling CharacterAnimBP as a dependent...
+[2017.05.18-18.35.05:587][357]LogPlayLevel: PlayLevel: Blueprint regeneration took 314 ms (2 blueprints)
+[2017.05.18-18.35.05:588][357]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:35:05 PM)
+[2017.05.18-18.35.05:588][357]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.35.05:602][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014408s)
+[2017.05.18-18.35.05:602][357]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.35.05:603][357]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.05.18-18.35.05:603][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015204s)
+[2017.05.18-18.35.05:620][357]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.35.05:622][357]LogInit: FAudioDevice initialized.
+[2017.05.18-18.35.05:694][357]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.35.05:696][357]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.35.05:696][357]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.35.05
+[2017.05.18-18.35.05:697][357]LogWorld: Bringing up level for play took: 0.001621
+[2017.05.18-18.35.05:703][357]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.194
+[2017.05.18-18.35.05:703][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.35.13:904][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.35.13:976][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.36.44:872][405]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.36.46:212][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.36.46:278][452]LogSavePackage: Save=60.47ms
+[2017.05.18-18.36.46:278][452]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp6B7406A047BD7B4E8FCF1BBC6D7A1519.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.36.46:279][452]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.36.48:399][591]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.36.48:413][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.36.48:413][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.36.48:413][591]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:36:48 PM)
+[2017.05.18-18.36.48:413][591]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.36.48:417][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004381s)
+[2017.05.18-18.36.48:418][591]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.36.48:418][591]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2017.05.18-18.36.48:418][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005191s)
+[2017.05.18-18.36.48:435][591]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.36.48:437][591]LogInit: FAudioDevice initialized.
+[2017.05.18-18.36.48:510][591]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.36.48:513][591]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.36.48:513][591]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.36.48
+[2017.05.18-18.36.48:513][591]LogWorld: Bringing up level for play took: 0.001723
+[2017.05.18-18.36.48:523][591]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.014
+[2017.05.18-18.36.48:524][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.37.10:078][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.37.10:155][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.43:428][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.38.43:493][145]LogSavePackage: Save=63.19ms
+[2017.05.18-18.38.43:493][145]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBpE821C27A4ECE3D5E0E676FAEF565695D.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.38.43:494][145]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.38.44:680][210]BlueprintLog: New page: Compile CharcterBp
+[2017.05.18-18.38.46:279][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharcterBp" FILE="D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset" SILENT=true
+[2017.05.18-18.38.46:368][265]LogSavePackage: Save=87.20ms
+[2017.05.18-18.38.46:368][265]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/CharcterBp5C5B07D0437AD7F9022952BFB0003229.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset'
+[2017.05.18-18.38.46:368][265]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/CharcterBp.uasset
+[2017.05.18-18.38.50:001][448]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.38.50:014][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.50:014][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.38.50:015][448]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:38:50 PM)
+[2017.05.18-18.38.50:015][448]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.38.50:019][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004637s)
+[2017.05.18-18.38.50:020][448]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.38.50:020][448]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.05.18-18.38.50:020][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005400s)
+[2017.05.18-18.38.50:037][448]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.38.50:040][448]LogInit: FAudioDevice initialized.
+[2017.05.18-18.38.50:118][448]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.38.50:121][448]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.38.50:121][448]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.38.50
+[2017.05.18-18.38.50:121][448]LogWorld: Bringing up level for play took: 0.002159
+[2017.05.18-18.38.50:132][448]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.377
+[2017.05.18-18.38.50:132][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.54:971][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.55:045][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.56:104][737]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.38.56:118][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.38.56:118][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.38.56:118][737]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:38:56 PM)
+[2017.05.18-18.38.56:118][737]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.38.56:122][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004191s)
+[2017.05.18-18.38.56:123][737]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.38.56:123][737]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.05.18-18.38.56:123][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005083s)
+[2017.05.18-18.38.56:139][737]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.38.56:142][737]LogInit: FAudioDevice initialized.
+[2017.05.18-18.38.56:215][737]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.38.56:218][737]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.38.56:218][737]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.38.56
+[2017.05.18-18.38.56:218][737]LogWorld: Bringing up level for play took: 0.001837
+[2017.05.18-18.38.56:228][737]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.281
+[2017.05.18-18.38.56:229][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.39.13:059][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.39.13:133][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.40.51:351][640]LogSavePackage: Save=100.76ms
+[2017.05.18-18.40.51:351][640]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default_Auto2CBA1BD5E4E6A487D709028B5FF345B88.tmp' to 'D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.05.18-18.40.51:374][640]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.05.18-18.40.51:375][640]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.145
+[2017.05.18-18.40.51:375][640]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2017.05.18-18.42.30:610][445]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-18.42.30:624][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.42.30:624][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-18.42.30:624][445]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 8:42:30 PM)
+[2017.05.18-18.42.30:625][445]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-18.42.30:629][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004404s)
+[2017.05.18-18.42.30:630][445]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-18.42.30:630][445]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.05.18-18.42.30:630][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005298s)
+[2017.05.18-18.42.30:647][445]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-18.42.30:650][445]LogInit: FAudioDevice initialized.
+[2017.05.18-18.42.30:753][445]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-18.42.30:755][445]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-18.42.30:756][445]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-19.42.30
+[2017.05.18-18.42.30:756][445]LogWorld: Bringing up level for play took: 0.002220
+[2017.05.18-18.42.30:766][445]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.258
+[2017.05.18-18.42.30:767][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.43.03:137][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-18.43.03:207][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.04:620][209]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-19.51.04:636][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.04:636][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.51.04:636][209]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 9:51:04 PM)
+[2017.05.18-19.51.04:636][209]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-19.51.04:641][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004762s)
+[2017.05.18-19.51.04:641][209]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-19.51.04:641][209]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.05.18-19.51.04:642][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005697s)
+[2017.05.18-19.51.04:659][209]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-19.51.04:661][209]LogInit: FAudioDevice initialized.
+[2017.05.18-19.51.04:730][209]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-19.51.04:732][209]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-19.51.04:732][209]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-20.51.04
+[2017.05.18-19.51.04:733][209]LogWorld: Bringing up level for play took: 0.001990
+[2017.05.18-19.51.04:738][209]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.245
+[2017.05.18-19.51.04:739][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.30:234][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.30:309][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.33:592][377]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-19.51.33:606][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.33:606][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.51.33:606][377]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 9:51:33 PM)
+[2017.05.18-19.51.33:606][377]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-19.51.33:611][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004478s)
+[2017.05.18-19.51.33:611][377]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-19.51.33:611][377]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2017.05.18-19.51.33:611][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005433s)
+[2017.05.18-19.51.33:628][377]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-19.51.33:630][377]LogInit: FAudioDevice initialized.
+[2017.05.18-19.51.33:701][377]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-19.51.33:703][377]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-19.51.33:703][377]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-20.51.33
+[2017.05.18-19.51.33:704][377]LogWorld: Bringing up level for play took: 0.001820
+[2017.05.18-19.51.33:710][377]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.783
+[2017.05.18-19.51.33:710][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.40:914][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.40:971][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.42:177][247]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.18-19.51.42:191][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.51.42:191][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.51.42:191][247]PIE: New page: PIE session: Minimal_Default (May 18, 2017, 9:51:42 PM)
+[2017.05.18-19.51.42:191][247]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.18-19.51.42:196][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004254s)
+[2017.05.18-19.51.42:196][247]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-19.51.42:197][247]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2017.05.18-19.51.42:197][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005253s)
+[2017.05.18-19.51.42:213][247]LogInit: XAudio2 using 'Speakers (3- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.18-19.51.42:215][247]LogInit: FAudioDevice initialized.
+[2017.05.18-19.51.42:288][247]LogLoad: Game class is 'MyGame_C'
+[2017.05.18-19.51.42:291][247]PIE:Warning: Warning Trying to simulate physics on ''/Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2017.05.18-19.51.42:291][247]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-20.51.42
+[2017.05.18-19.51.42:291][247]LogWorld: Bringing up level for play took: 0.001646
+[2017.05.18-19.51.42:297][247]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.197
+[2017.05.18-19.51.42:297][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.52.02:045][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.52.02:103][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.18-19.52.05:931][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/MyGame" FILE="D:/Users/james/Desktop/MyProject/Content/Character/MyGame.uasset" SILENT=true
+[2017.05.18-19.52.05:984][620]LogSavePackage: Save=9.63ms
+[2017.05.18-19.52.05:984][620]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/MyGameEA3DD93F45AC4F123DB329B6A69EF93D.tmp' to 'D:/Users/james/Desktop/MyProject/Content/Character/MyGame.uasset'
+[2017.05.18-19.52.05:987][620]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/Character/MyGame.uasset
+[2017.05.18-19.52.08:583][620]LogSavePackage: Save=119.23ms
+[2017.05.18-19.52.08:583][620]LogSavePackage: Moving 'D:/Users/james/Desktop/MyProject/Saved/Minimal_Default5724BCA14077603FA47554923E773401.tmp' to 'D:/Users/james/Desktop/MyProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.05.18-19.52.08:585][620]LogSavePackage:Display: Finished SavePackage D:/Users/james/Desktop/MyProject/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.18-19.52.08:637][620]LogFileHelpers: Saving map 'Minimal_Default' took 2.642
+[2017.05.18-19.52.09:471][620]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.18-19.52.10:297][621]Cmd: QUIT_EDITOR
+[2017.05.18-19.52.10:825][621]LogExit: Preparing to exit.
+[2017.05.18-19.52.13:161][621]LogExit: Editor shut down
+[2017.05.18-19.52.13:173][621]LogExit: Transaction tracking system shut down
+[2017.05.18-19.52.14:493][621]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.18-19.52.14:501][621]LogExit: Object subsystem successfully closed.
+[2017.05.18-19.52.14:717][621]LogD3D11RHI: Shutdown
+[2017.05.18-19.52.14:718][621]LogD3D11RHI: CleanupD3DDevice
+[2017.05.18-19.52.15:518][621]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.18-19.52.15:601][621]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (508)
+[2017.05.18-19.52.15:601][621]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
+[2017.05.18-19.52.15:601][621]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.05.18-19.52.15:601][621]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.18-19.52.15:601][621]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.18-19.52.15:603][621]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.18-19.52.15:603][621]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.18-19.52.15:603][621]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.18-19.52.15:603][621]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.18-19.52.15:607][621]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.18-19.52.15:679][621]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.18-19.52.15:679][621]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.18-19.52.15:679][621]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.18-19.52.15:680][621]LogDirectoryWatcher: A directory notification for 'D:/Users/james/Desktop/MyProject/Content/Collections/' was aborted.
+[2017.05.18-19.52.15:680][621]LogDirectoryWatcher: A directory notification for 'D:/Users/james/Desktop/MyProject/Content/Developers/james/Collections/' was aborted.
+[2017.05.18-19.52.15:680][621]LogDirectoryWatcher: A directory notification for 'D:/Users/james/Desktop/MyProject/Saved/Collections/' was aborted.
+[2017.05.18-19.52.15:680][621]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.18-19.52.15:681][621]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.18-19.52.15:681][621]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.18-19.52.15:683][621]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.18-19.52.15:683][621]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.18-19.52.15:683][621]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.18-19.52.15:684][621]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.18-19.52.15:684][621]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.18-19.52.15:684][621]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.18-19.52.15:684][621]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.18-19.52.15:684][621]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.18-19.52.15:685][621]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.18-19.52.15:686][621]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.18-19.52.15:688][621]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.18-19.52.15:689][621]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.18-19.52.15:689][621]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.18-19.52.15:690][621]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.18-19.52.15:691][621]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.18-19.52.15:691][621]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.18-19.52.15:691][621]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.18-19.52.15:691][621]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.18-19.52.15:694][621]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.18-19.52.15:696][621]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.18-19.52.15:697][621]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.18-19.52.15:698][621]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.18-19.52.15:698][621]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.18-19.52.15:698][621]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.18-19.52.15:698][621]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.18-19.52.16:020][621]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.18-19.52.16:020][621]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.18-19.52.16:020][621]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.18-19.52.16:020][621]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.18-19.52.16:022][621]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.18-19.52.16:022][621]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.18-19.52.16:023][621]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.18-19.52.16:023][621]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.18-19.52.16:024][621]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.18-19.52.16:025][621]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.18-19.52.16:026][621]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.18-19.52.16:026][621]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.18-19.52.16:026][621]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.18-19.52.16:027][621]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.18-19.52.16:027][621]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.18-19.52.16:027][621]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.18-19.52.16:027][621]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.18-19.52.16:028][621]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.18-19.52.16:035][621]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.18-19.52.16:036][621]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.18-19.52.16:037][621]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.18-19.52.16:038][621]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.18-19.52.16:038][621]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.18-19.52.16:039][621]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.18-19.52.16:040][621]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.18-19.52.16:073][621]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.18-19.52.16:073][621]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.18-19.52.16:074][621]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.18-19.52.16:076][621]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.18-19.52.16:076][621]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.18-19.52.16:077][621]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.18-19.52.16:078][621]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.18-19.52.16:079][621]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.18-19.52.16:079][621]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.18-19.52.16:104][621]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.18-19.52.16:104][621]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.18-19.52.16:109][621]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.18-19.52.16:110][621]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.18-19.52.16:110][621]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.18-19.52.16:111][621]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.18-19.52.16:111][621]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.18-19.52.16:112][621]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.18-19.52.16:117][621]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.18-19.52.16:118][621]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.18-19.52.16:118][621]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.18-19.52.16:118][621]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.18-19.52.16:167][621]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.18-19.52.16:168][621]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.18-19.52.16:169][621]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.18-19.52.16:169][621]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.18-19.52.16:170][621]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.18-19.52.16:170][621]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.18-19.52.16:171][621]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.18-19.52.16:173][621]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.18-19.52.16:175][621]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.18-19.52.16:177][621]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.18-19.52.16:177][621]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.18-19.52.16:177][621]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.18-19.52.16:177][621]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.18-19.52.16:179][621]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.18-19.52.16:181][621]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.18-19.52.16:182][621]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.18-19.52.16:183][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.18-19.52.16:183][621]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.18-19.52.16:183][621]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.18-19.52.16:184][621]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.18-19.52.16:185][621]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.18-19.52.16:185][621]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.18-19.52.16:202][621]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.18-19.52.16:203][621]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.18-19.52.16:203][621]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.18-19.52.16:204][621]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.18-19.52.16:234][621]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.18-19.52.16:234][621]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.18-19.52.16:234][621]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.18-19.52.16:234][621]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.18-19.52.16:335][621]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.18-19.52.16:436][621]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.18-19.52.16:436][621]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.18-19.52.16:437][621]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.18-19.52.16:437][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.18-19.52.16:437][621]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.18-19.52.16:437][621]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.18-19.52.16:438][621]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.18-19.52.16:440][621]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.18-19.52.16:440][621]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.18-19.52.16:440][621]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.18-19.52.16:441][621]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.18-19.52.16:441][621]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.18-19.52.16:441][621]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.18-19.52.16:443][621]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.18-19.52.16:443][621]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.18-19.52.16:444][621]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.18-19.52.16:444][621]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.18-19.52.16:444][621]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.18-19.52.16:445][621]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.18-19.52.16:447][621]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.18-19.52.16:447][621]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.18-19.52.16:448][621]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.18-19.52.16:451][621]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.18-19.52.16:451][621]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.18-19.52.16:472][621]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.18-19.52.16:473][621]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.18-19.52.16:473][621]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.18-19.52.16:473][621]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.18-19.52.16:473][621]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.18-19.52.16:473][621]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.18-19.52.16:990][621]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.18-19.52.16:990][621]LogDirectoryWatcher: A directory notification for 'D:/Users/james/Desktop/MyProject/Content/' was aborted.
+[2017.05.18-19.52.16:990][621]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.18-19.52.16:993][621]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.18-19.52.17:039][621]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.18-19.52.17:039][621]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.18-19.52.17:039][621]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.18-19.52.17:041][621]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.18-19.52.17:041][621]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.18-19.52.17:042][621]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.18-19.52.17:042][621]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.18-19.52.17:044][621]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.18-19.52.17:100][621]LogDerivedDataCache: Shutdown
+[2017.05.18-19.52.17:100][621]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.18-19.52.17:101][621]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.18-19.52.17:101][621]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.18-19.52.17:102][621]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.18-19.52.17:102][621]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.18-19.52.17:103][621]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.18-19.52.17:103][621]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.18-19.52.17:104][621]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.18-19.52.17:104][621]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.18-19.52.17:107][621]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.18-19.52.17:107][621]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.18-19.52.17:107][621]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.18-19.52.17:108][621]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.18-19.52.17:108][621]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.18-19.52.17:108][621]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.18-19.52.17:109][621]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.18-19.52.17:109][621]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.18-19.52.17:109][621]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.18-19.52.17:109][621]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.18-19.52.17:109][621]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.18-19.52.17:110][621]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.18-19.52.17:111][621]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.18-19.52.17:111][621]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.18-19.52.17:111][621]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.18-19.52.17:112][621]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.18-19.52.17:112][621]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.18-19.52.17:112][621]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.18-19.52.17:113][621]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.18-19.52.17:114][621]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.18-19.52.17:114][621]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.18-19.52.17:114][621]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.18-19.52.17:114][621]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.18-19.52.17:114][621]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.18-19.52.17:115][621]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.18-19.52.17:117][621]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.18-19.52.17:117][621]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.05.18-19.52.17:117][621]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B87C3771B-4156-6010-FB75-51AB3EBAA850%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=c8b40b87436e469d6445af9ccb40137a%7C872d0704c9ab477586defb3dbe53ba96%7Cf59fab4e-cea7-40b4-bc7d-9051da022752&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.18-19.52.17:117][621]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B87C3771B-4156-6010-FB75-51AB3EBAA850%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=c8b40b87436e469d6445af9ccb40137a%7C872d0704c9ab477586defb3dbe53ba96%7Cf59fab4e-cea7-40b4-bc7d-9051da022752&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.18-19.52.17:152][621]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.18-19.52.17:166][621]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.18-19.52.17:166][621]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.18-19.52.17:168][621]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.18-19.52.17:168][621]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.18-19.52.17:168][621]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.18-19.52.17:544][621]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.18-19.52.17:544][621]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.18-19.52.17:544][621]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.18-19.52.17:545][621]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.18-19.52.17:552][621]LogExit: Exiting.
+[2017.05.18-19.52.17:621][621]Log file closed, 05/18/17 20:52:17
